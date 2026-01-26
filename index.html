@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontier Firms LATAM - Transformación Digital con Microsoft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://static.vecteezy.com/system/resources/previews/022/100/816/large_2x/microsoft-logo-transparent-free-png.png" alt="Microsoft" class="logo-img">
+                <span class="logo-text">Frontier Firms LATAM</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#que-son" class="nav-link">¿Qué son?</a>
+                <a href="#casos-exito" class="nav-link">Casos de Éxito</a>
+                <a href="#roadmap" class="nav-link">Roadmap</a>
+                <a href="#soluciones" class="nav-link">Soluciones Microsoft</a>
+                <a href="#contacto" class="nav-link cta-nav">Comenzar Ahora</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Conviértete en una <span class="highlight">Frontier Firm</span> 
+                    <br>con Microsoft
+                </h1>
+                <p class="hero-subtitle">
+                    Lidera la transformación digital en Latinoamérica. Únete a las empresas que están 
+                    redefiniendo sus industrias con IA, automatización y tecnologías de vanguardia.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">Mayor productividad</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-label">Reducción de costos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3x</span>
+                        <span class="stat-label">Velocidad de innovación</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('roadmap')">
+                        <i class="fas fa-rocket"></i>
+                        Iniciar Transformación
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('casos-exito')">
+                        <i class="fas fa-play"></i>
+                        Ver Casos de Éxito
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://res.cloudinary.com/dthpnue1d/image/upload/v1714552929/how_to_use_microsoft_azure_ai_studio_09f6b51799.jpg" alt="AI Transformation" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- What are Frontier Firms -->
+    <section id="que-son" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Qué son las Frontier Firms?</h2>
+                <p class="section-subtitle">
+                    Las empresas que lideran la adopción de tecnologías emergentes y redefinen sus industrias
+                </p>
+            </div>
+            
+            <div class="definition-grid">
+                <div class="definition-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>IA Integrada</h3>
+                    <p>Utilizan inteligencia artificial en todos los procesos críticos del negocio</p>
+                </div>
+                
+                <div class="definition-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automatización Avanzada</h3>
+                    <p>Automatizan procesos complejos con agentes autónomos y RPA</p>
+                </div>
+                
+                <div class="definition-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Decisiones Data-Driven</h3>
+                    <p>Basan todas las decisiones estratégicas en análisis de datos en tiempo real</p>
+                </div>
+                
+                <div class="definition-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Experiencia Personalizada</h3>
+                    <p>Ofrecen experiencias hiperpersonalizadas a clientes y empleados</p>
+                </div>
+            </div>
+
+            <div class="latam-stats">
+                <h3>Frontier Firms en Latinoamérica</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <img src="https://flagcdn.com/w40/cl.png" alt="Chile" class="flag">
+                        <div class="stat-info">
+                            <span class="country">Chile</span>
+                            <span class="score">54.2/100</span>
+                            <span class="label">AI Readiness Index</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <img src="https://flagcdn.com/w40/br.png" alt="Brasil" class="flag">
+                        <div class="stat-info">
+                            <span class="country">Brasil</span>
+                            <span class="score">114M</span>
+                            <span class="label">Usuarios Fintech</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <img src="https://flagcdn.com/w40/mx.png" alt="México" class="flag">
+                        <div class="stat-info">
+                            <span class="country">México</span>
+                            <span class="score">2024</span>
+                            <span class="label">Estrategia Nacional IA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Cases -->
+    <section id="casos-exito" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Casos de Éxito en LATAM</h2>
+                <p class="section-subtitle">
+                    Empresas latinoamericanas que ya son Frontier Firms
+                </p>
+            </div>
+
+            <div class="cases-grid">
+                <div class="case-card featured">
+                    <div class="case-header">
+                        <img src="https://logoeps.com/wp-content/uploads/2013/03/mercado-libre-vector-logo.png" alt="Mercado Libre" class="case-logo">
+                        <div class="case-country">
+                            <img src="https://flagcdn.com/w20/ar.png" alt="Argentina">
+                            <span>Argentina</span>
+                        </div>
+                    </div>
+                    <h3>Mercado Libre</h3>
+                    <p class="case-description">
+                        Plataforma Verdi con GPT-4o maneja $450M en decisiones anuales de forma autónoma
+                    </p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">99%</span>
+                            <span class="metric-label">Precisión antifraude</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">100x</span>
+                            <span class="metric-label">Velocidad catalogación</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">Azure OpenAI</span>
+                        <span class="tech-tag">GPT-4o</span>
+                        <span class="tech-tag">ML Automation</span>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-header">
+                        <img src="https://logoeps.com/wp-content/uploads/2022/05/nubank-vector-logo-2022.png" alt="Nubank" class="case-logo">
+                        <div class="case-country">
+                            <img src="https://flagcdn.com/w20/br.png" alt="Brasil">
+                            <span>Brasil</span>
+                        </div>
+                    </div>
+                    <h3>Nubank</h3>
+                    <p class="case-description">
+                        Estrategia AI-First con 114M clientes y 70% reducción en tiempos de respuesta
+                    </p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">55%</span>
+                            <span class="metric-label">Consultas resueltas por IA</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">70%</span>
+                            <span class="metric-label">Reducción tiempo respuesta</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">OpenAI Partnership</span>
+                        <span class="tech-tag">GPT-4o Vision</span>
+                        <span class="tech-tag">Hyperplane AI</span>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-header">
+                        <img src="https://logoeps.com/wp-content/uploads/2022/12/rappi-vector-logo-2022.png" alt="Rappi" class="case-logo">
+                        <div class="case-country">
+                            <img src="https://flagcdn.com/w20/co.png" alt="Colombia">
+                            <span>Colombia</span>
+                        </div>
+                    </div>
+                    <h3>Rappi</h3>
+                    <p class="case-description">
+                        IA de Oracle duplica velocidad de búsqueda y optimiza entregas
+                    </p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">2x</span>
+                            <span class="metric-label">Velocidad búsqueda</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">Real-time</span>
+                            <span class="metric-label">Decisiones crédito</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">Oracle AI</span>
+                        <span class="tech-tag">ML Personalization</span>
+                        <span class="tech-tag">Credit AI</span>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-header">
+                        <img src="https://logoeps.com/wp-content/uploads/2013/03/banco-santander-vector-logo.png" alt="Santander" class="case-logo">
+                        <div class="case-country">
+                            <img src="https://flagcdn.com/w20/br.png" alt="Brasil">
+                            <span>Brasil</span>
+                        </div>
+                    </div>
+                    <h3>Banco Santander</h3>
+                    <p class="case-description">
+                        €200M ahorrados en 2024 con IA generativa y ChatGPT Enterprise
+                    </p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">€200M</span>
+                            <span class="metric-label">Ahorros 2024</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">30%</span>
+                            <span class="metric-label">Aumento productividad</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">ChatGPT Enterprise</span>
+                        <span class="tech-tag">OpenAI Partnership</span>
+                        <span class="tech-tag">Speech Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Roadmap -->
+    <section id="roadmap" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Roadmap de Transformación</h2>
+                <p class="section-subtitle">
+                    Tu camino hacia convertirte en una Frontier Firm en 4 fases
+                </p>
+            </div>
+
+            <div class="roadmap-container">
+                <div class="roadmap-phase" data-phase="1">
+                    <div class="phase-number">01</div>
+                    <div class="phase-content">
+                        <h3>Automatización de Procesos</h3>
+                        <p class="phase-duration">0-6 meses</p>
+                        <ul class="phase-tasks">
+                            <li>Implementar RPA en operaciones repetitivas</li>
+                            <li>Chatbots para atención al cliente básica</li>
+                            <li>Análisis predictivo en áreas críticas</li>
+                        </ul>
+                        <div class="phase-tools">
+                            <span class="tool-tag">Power Automate</span>
+                            <span class="tool-tag">Power Virtual Agents</span>
+                            <span class="tool-tag">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-phase" data-phase="2">
+                    <div class="phase-number">02</div>
+                    <div class="phase-content">
+                        <h3>IA Integrada</h3>
+                        <p class="phase-duration">6-18 meses</p>
+                        <ul class="phase-tasks">
+                            <li>Plataformas de ML para decisiones operativas</li>
+                            <li>Personalización de servicios al cliente</li>
+                            <li>Optimización de cadena de suministro</li>
+                        </ul>
+                        <div class="phase-tools">
+                            <span class="tool-tag">Azure Machine Learning</span>
+                            <span class="tool-tag">Cognitive Services</span>
+                            <span class="tool-tag">Azure OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-phase" data-phase="3">
+                    <div class="phase-content">
+                        <h3>Transformación Completa</h3>
+                        <p class="phase-duration">18-36 meses</p>
+                        <ul class="phase-tasks">
+                            <li>Agentes autónomos para procesos complejos</li>
+                            <li>IA generativa para innovación de productos</li>
+                            <li>Ecosistema de datos integrado</li>
+                        </ul>
+                        <div class="phase-tools">
+                            <span class="tool-tag">Microsoft Copilot</span>
+                            <span class="tool-tag">Azure AI Studio</span>
+                            <span class="tool-tag">Fabric</span>
+                        </div>
+                    </div>
+                    <div class="phase-number">03</div>
+                </div>
+
+                <div class="roadmap-phase" data-phase="4">
+                    <div class="phase-number">04</div>
+                    <div class="phase-content">
+                        <h3>Liderazgo de Mercado</h3>
+                        <p class="phase-duration">36+ meses</p>
+                        <ul class="phase-tasks">
+                            <li>Innovación continua con IA agéntica</li>
+                            <li>Ecosistemas de partners digitales</li>
+                            <li>Nuevos modelos de negocio</li>
+                        </ul>
+                        <div class="phase-tools">
+                            <span class="tool-tag">Azure AI Foundry</span>
+                            <span class="tool-tag">Multi-Agent Systems</span>
+                            <span class="tool-tag">Industry Clouds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="roadmap-cta">
+                <h3>¿Listo para comenzar tu transformación?</h3>
+                <button class="btn-primary" onclick="scrollToSection('soluciones')">
+                    <i class="fas fa-arrow-right"></i>
+                    Explorar Soluciones Microsoft
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Microsoft Solutions -->
+    <section id="soluciones" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-white">Soluciones Microsoft para Frontier Firms</h2>
+                <p class="section-subtitle text-light">
+                    El ecosistema completo de herramientas para tu transformación digital
+                </p>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain category-icon"></i>
+                        <h3>Inteligencia Artificial</h3>
+                    </div>
+                    <div class="solution-cards">
+                        <div class="solution-card">
+                            <img src="https://5279291.fs1.hubspotusercontent-na1.net/hub/5279291/hubfs/microsoft-ai.png?quality=low&width=1000&height=551&name=microsoft-ai.png" alt="Azure OpenAI" class="solution-image">
+                            <h4>Azure OpenAI Service</h4>
+                            <p>Integra GPT-4, DALL-E y Codex en tus aplicaciones empresariales</p>
+                            <ul class="solution-features">
+                                <li>Modelos de lenguaje avanzados</li>
+                                <li>APIs empresariales seguras</li>
+                                <li>Personalización con tus datos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="solution-card">
+                            <img src="https://stoneridgesoftware.com/wp-content/uploads/2023/12/Microsoft-Copilot-Available.png" alt="Microsoft Copilot" class="solution-image">
+                            <h4>Microsoft 365 Copilot</h4>
+                            <p>Asistente IA integrado en todas las aplicaciones de Office</p>
+                            <ul class="solution-features">
+                                <li>Automatización de documentos</li>
+                                <li>Análisis inteligente de datos</li>
+                                <li>Generación de contenido</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-category">
+                    <div class="category-header">
+                        <i class="fas fa-cloud category-icon"></i>
+                        <h3>Plataforma en la Nube</h3>
+                    </div>
+                    <div class="solution-cards">
+                        <div class="solution-card">
+                            <img src="https://nioyatech.com/wp-content/uploads/2022/10/how-does-cloud-infrastructure-work-1024x700.png" alt="Azure Cloud" class="solution-image">
+                            <h4>Microsoft Azure</h4>
+                            <p>Infraestructura cloud escalable y segura para tus aplicaciones</p>
+                            <ul class="solution-features">
+                                <li>Compute y storage ilimitados</li>
+                                <li>Servicios de IA integrados</li>
+                                <li>Seguridad empresarial</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="solution-card">
+                            <img src="https://prakashinfotech.com/wp-content/uploads/2023/10/microsoft-azure-ai-services.png" alt="Azure AI Services" class="solution-image">
+                            <h4>Azure AI Services</h4>
+                            <p>Suite completa de servicios cognitivos y ML</p>
+                            <ul class="solution-features">
+                                <li>Computer Vision y Speech</li>
+                                <li>Language Understanding</li>
+                                <li>Machine Learning Studio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-category">
+                    <div class="category-header">
+                        <i class="fas fa-chart-bar category-icon"></i>
+                        <h3>Análisis y Datos</h3>
+                    </div>
+                    <div class="solution-cards">
+                        <div class="solution-card">
+                            <img src="https://www.kyubit.com/Images/Analytics-Dashboard/Analytics-Dashboard.png" alt="Power BI" class="solution-image">
+                            <h4>Power BI</h4>
+                            <p>Business Intelligence y visualización de datos avanzada</p>
+                            <ul class="solution-features">
+                                <li>Dashboards interactivos</li>
+                                <li>IA para insights automáticos</li>
+                                <li>Integración con todas las fuentes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="solution-card">
+                            <img src="https://assets.bacancytechnology.com/blog/wp-content/uploads/2024/12/17124511/Azure-AI-Foundry-Architecture.jpg" alt="Microsoft Fabric" class="solution-image">
+                            <h4>Microsoft Fabric</h4>
+                            <p>Plataforma unificada de datos y analytics</p>
+                            <ul class="solution-features">
+                                <li>Data lakehouse integrado</li>
+                                <li>Real-time analytics</li>
+                                <li>Governance centralizada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-category">
+                    <div class="category-header">
+                        <i class="fas fa-cogs category-icon"></i>
+                        <h3>Automatización</h3>
+                    </div>
+                    <div class="solution-cards">
+                        <div class="solution-card">
+                            <img src="https://newo.ai/wp-content/uploads/2024/04/workplace-transformation-through-ai-and-automation.jpg" alt="Power Automate" class="solution-image">
+                            <h4>Power Automate</h4>
+                            <p>Automatización de procesos robótica (RPA) y workflows</p>
+                            <ul class="solution-features">
+                                <li>Automatización sin código</li>
+                                <li>Conectores a 400+ servicios</li>
+                                <li>IA para procesos complejos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="solution-card">
+                            <img src="https://www.k2e.com/wp-content/uploads/2025/06/Teams-Collaboration-And-Communication.png" alt="Microsoft Teams" class="solution-image">
+                            <h4>Microsoft Teams</h4>
+                            <p>Colaboración inteligente con IA integrada</p>
+                            <ul class="solution-features">
+                                <li>Meetings con transcripción IA</li>
+                                <li>Copilot para reuniones</li>
+                                <li>Integración con todas las apps</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="solutions-cta">
+                <div class="cta-content">
+                    <h3>Acelera tu transformación con Microsoft</h3>
+                    <p>Únete a las empresas líderes de LATAM que ya están transformando sus industrias</p>
+                    <div class="cta-stats">
+                        <div class="cta-stat">
+                            <span class="stat-number">€200M</span>
+                            <span class="stat-label">Ahorrados por Santander</span>
+                        </div>
+                        <div class="cta-stat">
+                            <span class="stat-number">$450M</span>
+                            <span class="stat-label">Gestionados por Mercado Libre</span>
+                        </div>
+                        <div class="cta-stat">
+                            <span class="stat-number">114M</span>
+                            <span class="stat-label">Clientes de Nubank</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h2>¿Listo para convertirte en una Frontier Firm?</h2>
+                    <p>Comienza tu transformación digital hoy mismo con el respaldo de Microsoft y nuestro equipo de expertos en LATAM.</p>
+                    
+                    <div class="contact-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Consultoría gratuita de 1 hora</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Assessment personalizado de madurez digital</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Roadmap específico para tu industria</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Acceso a casos de éxito regionales</span>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email corporativo" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="empresa" name="empresa" placeholder="Empresa" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="pais" name="pais" required>
+                                    <option value="">Selecciona tu país</option>
+                                    <option value="AR">Argentina</option>
+                                    <option value="BR">Brasil</option>
+                                    <option value="CL">Chile</option>
+                                    <option value="CO">Colombia</option>
+                                    <option value="MX">México</option>
+                                    <option value="PE">Perú</option>
+                                    <option value="UY">Uruguay</option>
+                                    <option value="OTHER">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="industria" name="industria" required>
+                                <option value="">Selecciona tu industria</option>
+                                <option value="fintech">Fintech y Servicios Financieros</option>
+                                <option value="retail">Retail y E-commerce</option>
+                                <option value="manufactura">Manufactura</option>
+                                <option value="salud">Salud y Farmacéutica</option>
+                                <option value="energia">Energía y Utilities</option>
+                                <option value="telecomunicaciones">Telecomunicaciones</option>
+                                <option value="gobierno">Gobierno y Sector Público</option>
+                                <option value="educacion">Educación</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tus desafíos de transformación digital..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Solicitar Consultoría Gratuita
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-visual">
+                    <img src="https://bairesdev.mo.cloudinary.net/blog/2024/01/leadership-trimmed.jpg?tx=w_3840,q_auto" alt="Digital Transformation Leadership" class="contact-image">
+                    
+                    <div class="contact-stats">
+                        <h4>Resultados Comprobados</h4>
+                        <div class="result-stat">
+                            <span class="result-number">40%</span>
+                            <span class="result-label">Aumento promedio en productividad</span>
+                        </div>
+                        <div class="result-stat">
+                            <span class="result-number">60%</span>
+                            <span class="result-label">Reducción en costos operativos</span>
+                        </div>
+                        <div class="result-stat">
+                            <span class="result-number">18 meses</span>
+                            <span class="result-label">Tiempo promedio de ROI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://static.vecteezy.com/system/resources/previews/022/100/816/large_2x/microsoft-logo-transparent-free-png.png" alt="Microsoft" class="footer-logo-img">
+                        <span>Frontier Firms LATAM</span>
+                    </div>
+                    <p>Transformando empresas latinoamericanas en líderes digitales con tecnología Microsoft.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#casos-exito">Casos de Éxito</a></li>
+                        <li><a href="#roadmap">Roadmap de Transformación</a></li>
+                        <li><a href="#soluciones">Soluciones Microsoft</a></li>
+                        <li><a href="#">Whitepapers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Industrias</h4>
+                    <ul>
+                        <li><a href="#">Fintech</a></li>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Manufactura</a></li>
+                        <li><a href="#">Salud</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@frontierfirms-latam.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Frontier Firms LATAM. Powered by Microsoft. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
